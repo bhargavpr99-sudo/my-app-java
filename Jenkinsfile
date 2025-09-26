@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/bhargavpr99-sudo/my-app-java.git', branch: 'main', credentialsId: '15439a53-240f-4e5c-803e-3770752e7b8b'
+                git url: 'https://github.com/bhargavpr99-sudo/my-app-java.git', branch: 'master', credentialsId: '15439a53-240f-4e5c-803e-3770752e7b8b'
 
             }
         }
