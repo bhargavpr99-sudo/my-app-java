@@ -13,7 +13,7 @@ pipeline {
             steps {
                 git url: 'https://github.com/bhargavpr99-sudo/my-app-java.git',
                     branch: 'master',
-                    credentialsId: 'github-pat'  // Replace with your actual credentials ID in Jenkins
+                    credentialsId: '62404003-b570-4ade-97b6-4b63ac4e5af3'  // Replace with your actual credentials ID in Jenkins
             }
         }
 
